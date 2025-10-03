@@ -139,7 +139,7 @@ await main();
 // } from "@google/genai";
 
 // const ai = new GoogleGenAI({
-//   apiKey: "AIzaSyCyyu_yPAsos_HJLjvb94psHBlJAa3VDj0",
+//   apiKey: "process.env.GOOGLE_GENAI_API_KEY",
 // });
 
 // async function main() {
@@ -212,3 +212,4 @@ await main();
 // }
 
 // await main();
+
